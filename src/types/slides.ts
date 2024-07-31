@@ -717,4 +717,50 @@ export interface SlideTheme {
   fontName: string
   outline: PPTElementOutline
   shadow: PPTElementShadow
+  page?: Page
 }
+
+export interface Page {
+  backgroundColor: string | undefined;
+  textColor: string | undefined;
+}
+
+export interface Catalog {
+  backgroundColor: string | undefined;
+  textColor: string | undefined;
+}
+
+export interface Section {}
+
+export interface Title {
+  fontSize: number | undefined;
+  color: string | undefined;
+  fontStyle: "normal" | "italic" | "oblique" | undefined;
+  fontWeight: "normal" | "bold" | "bolder" | "lighter" | number | undefined;
+  allowIcons: boolean | undefined;
+}
+
+export interface Element {
+  id: string;
+  type: string;
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+}
+
+export interface TextElement extends Element {
+  text: string;
+}
+
+export interface ShapeElement extends Element {
+  shapeType: string;
+  pathData: string;
+  stroke: string | undefined;
+  strokeWidth: number;
+  path: string;
+  fill: string | undefined;
+  opacity: number;
+}
+
+

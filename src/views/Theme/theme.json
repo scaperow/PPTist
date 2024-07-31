@@ -1,0 +1,59 @@
+{
+  "cover": {
+    "elements": [
+      {
+        "type": "text",
+        "id": "idn7Mx",
+        "left": 62.5,
+        "top": 34.398936170212764,
+        "width": 585,
+        "height": 154.390625,
+        "lineHeight": 1.2,
+        "content": "<p style=\"\"><strong><span style=\"font-size: 112px;\">PPTist</span></strong></p>",
+        "rotate": 0,
+        "defaultFontName": "Microsoft Yahei",
+        "defaultColor": "#333"
+      },
+      {
+        "type": "text",
+        "id": "7stmVP",
+        "left": 62.5,
+        "top": 237.29255319148936,
+        "width": 585,
+        "height": 56,
+        "content": "<p><span style='font-size:  24px'>基于 Vue 3.x + TypeScript 的在线演示文稿应用</span></p>",
+        "rotate": 0,
+        "defaultFontName": "Microsoft Yahei",
+        "defaultColor": "#333"
+      },
+      {
+        "type": "line",
+        "id": "FnpZs4",
+        "left": 75.18085106382979,
+        "top": 202.36170212765956,
+        "start": [0, 0],
+        "end": [549, 0],
+        "points": ["", ""],
+        "color": "#5b9bd5",
+        "style": "solid",
+        "width": 2
+      }
+    ]
+  },
+  "chapter": {
+    "layout": {}
+  },
+  "content": {
+    "elements": [],
+    "layout": {}
+  },
+  "footer": {},
+  "catalog": {},
+  "layout": {},
+  "styles": {
+    "background": "#fff",
+    "color": "#333",
+    "fontFamily": "Helvetica",
+    "fontSize": "16px"
+  }
+}

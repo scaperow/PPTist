@@ -149,6 +149,8 @@ export default () => {
             el.top = el.top * scale
   
             if (el.type === 'text') {
+              console.log(el.borderType);
+              
               const textEl: PPTTextElement = {
                 type: 'text',
                 id: nanoid(10),

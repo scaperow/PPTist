@@ -61,6 +61,7 @@ usePasteEvent()
 <style lang="scss" scoped>
 .pptist-editor {
   height: 100%;
+  @apply w-full;
 }
 .layout-header {
   height: 40px;
